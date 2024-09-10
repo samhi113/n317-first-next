@@ -1,3 +1,7 @@
+.html * {
+  transition: all 0.25s ease-in-out;
+}
+
 .html {
   background-color: #ddd;
   font-family: sans-serif;
@@ -31,9 +35,22 @@
 }
 
 .homeNav ul li a {
+  height: 100%;
+  width: 10vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   text-decoration: none;
+  font-weight: normal;
   color: #ddd;
   font-size: 20px;
+}
+
+.homeNav ul li a:hover {
+  font-weight: bold;
+  background-color: #111;
 }
 
 .headerStyle {
@@ -100,7 +117,8 @@
 
 .prodPrice {
   width: 15vw;
-  height: calc(2vw + 2vh);
+  height: calc(1vw + 2.5vh);
+  border-radius: 1vh;
 
   background-color: #25f;
   color: #ddd;
@@ -110,4 +128,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.prodPrice:hover {
+  border-radius: 10vh;
 }
