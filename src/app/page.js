@@ -1,6 +1,6 @@
 "use client";
 import homeStyles from "@/app/page.module.css";
-import HairBrush from "@/app/components/HairBrush";
+//import HairBrush from "@/app/components/HairBrush";
 
 export default function Home() {
 
